@@ -1,0 +1,28 @@
+{
+  "name": "Udacity-RestarauntReviews",
+  "version": "1.0.0",
+  "description": "--- #### _Three Stage Course Material Project - Restaurant Reviews_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "python -m SimpleHTTPServer 8000 & sass --watch styles/scss/styles.scss:styles/css/styles.css",
+    "live": "live-server && ./liveserver.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImranK1506/Udacity-RestaurantReviews.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImranK1506/Udacity-RestaurantReviews/issues"
+  },
+  "homepage": "https://github.com/ImranK1506/Udacity-RestaurantReviews#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "sass": "^1.22.9"
+  }
+}
