@@ -4,10 +4,11 @@
     <list default="true" id="a7f8f2ca-d256-4d7f-a343-bbab5beb1378" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/breakpoints.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/breakpoints.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/styles.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,7 @@
       <workItem from="1565376877354" duration="2390000" />
       <workItem from="1565614162251" duration="11152000" />
       <workItem from="1565702570223" duration="11872000" />
-      <workItem from="1565796546892" duration="5855000" />
+      <workItem from="1565796546892" duration="6277000" />
     </task>
     <servers />
   </component>
