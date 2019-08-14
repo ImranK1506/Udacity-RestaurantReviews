@@ -84,7 +84,8 @@ nav h1 a {
   @media only screen and (min-width: 320px) and (max-width: 812px) {
     .filter-options {
       width: 100%;
-      margin: 20px 0; } }
+      margin: 20px 0;
+      border-radius: 0; } }
 
 .filter-options h2 {
   color: white;
