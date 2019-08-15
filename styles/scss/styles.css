@@ -44,7 +44,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 40px;
+  padding: 40px 25px 40px;
   text-align: center;
   text-transform: uppercase; }
 
@@ -70,6 +70,13 @@ nav h1 a {
   height: 400px;
   width: 100%;
   background-color: #ccc; }
+
+.map-container {
+  width: 95%;
+  margin: 0 auto; }
+  @media only screen and (min-width: 320px) and (max-width: 568px) {
+    .map-container {
+      width: 100%; } }
 
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
@@ -170,12 +177,5 @@ nav h1 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase; }
-
-.map-container {
-  width: 95%;
-  margin: 0 auto; }
-  @media only screen and (min-width: 320px) and (max-width: 568px) {
-    .map-container {
-      width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -19,44 +19,44 @@
             <nav>
               <h1><a href="/">Restaurant Reviews</a></h1>
             </nav>
-            <!-- Beginning breadcrumb -->
-            <ul id="breadcrumb" class="breadcrumb" >
-              <li><a href="/">Home</a></li>
-            </ul>
-            <!-- End breadcrumb -->
             <!-- End nav -->
           </header>
           <!-- End header -->
-
           <!-- Beginning main -->
-          <main class="container">
+          <div class="container">
+              <!-- Beginning breadcrumb -->
+              <ul id="breadcrumb" class="breadcrumb" >
+                  <li><a href="/">Home </a></li>
+              </ul>
+              <!-- End breadcrumb -->
             <!-- Beginning map -->
               <section id="map-container" class="map-container">
-                  <div id="map"></div>
+                  <div id="map" class="map"></div>
               </section>
             <!-- End map -->
 
             <!-- Beginning restaurant -->
             <section id="restaurant-container" class="restaurant-container">
-              <h1 id="restaurant-name"></h1>
+              <h1 id="restaurant-name" class="restaurant-name"></h1>
               <img id="restaurant-img">
               <p id="restaurant-cuisine"></p>
               <p id="restaurant-address" class="restaurant-address"></p>
               <table id="restaurant-hours" class="restaurant-hours"></table>
             </section>
             <!-- end restaurant -->
+              <hr class="border"/>
             <!-- Beginning reviews -->
-            <section id="reviews-container">
-              <ul id="reviews-list"></ul>
+            <section id="reviews-container" class="reviews-container">
+              <ul id="reviews-list" class="reviews-list"></ul>
             </section>
             <!-- End reviews -->
-          </main>
+          </div>
           <!-- End main -->
         </div>
         <!--Container-->
 
       <!-- Beginning footer -->
-      <footer id="footer">
+      <footer id="footer" class="footer">
         Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
       </footer>
       <!-- End footer -->

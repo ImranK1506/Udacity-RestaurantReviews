@@ -60,7 +60,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
-  padding: 40px;
+  padding: 40px 25px 40px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -122,6 +122,14 @@ nav h1 a {
   height: 400px;
   width: 100%;
   background-color: #ccc;
+}
+
+.map-container {
+  width: 95%;
+  margin: 0 auto;
+  @media #{$breakpoint-small} {
+    width: 100%;
+  }
 }
 
 /* ====================== Restaurant Filtering ====================== */
@@ -249,13 +257,7 @@ nav h1 a {
 //  width: 50%;
 //}
 //
-.map-container {
-  width: 95%;
-  margin: 0 auto;
-  @media #{$breakpoint-small} {
-    width: 100%;
-  }
-}
+
 //
 //.inside #map {
 //  background-color: #ccc;
