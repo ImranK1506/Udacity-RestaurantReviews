@@ -43,12 +43,12 @@ nav h1 a {
   font-size: 0.8rem;
   width: 45%;
   margin: 10px 0 10px 40px;
+  text-align: center;
 }
 @media only screen and (min-width: 320px) and (max-width: 568px) {
   .breadcrumb {
     margin: 0 auto;
     width: 100%;
-    text-align: center;
   }
 }
 
@@ -83,6 +83,7 @@ nav h1 a {
 /* ====================== Restaurant Details ====================== */
 .restaurant-name {
   color: #4fd1c5;
+  font-family: "Lato", Helvetica, sans-serif;
   font-size: 2rem;
   font-weight: normal;
   margin: 15px 0 30px;
@@ -165,7 +166,7 @@ nav h1 a {
 
 .restaurant-container {
   padding: 0 40px;
-  width: 41%;
+  width: 50%;
 }
 @media only screen and (min-width: 320px) and (max-width: 568px) {
   .restaurant-container {
@@ -266,10 +267,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ====================== Map ====================== */
-#map {
-  height: 400px;
+.map {
+  height: 635px;
   width: 100%;
   background-color: #ccc;
+}
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .map {
+    height: 475px;
+  }
 }
 
 .inside header {
@@ -304,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 25%;
   border: 1px solid #e2e8f0;
   margin-left: 10%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 @media only screen and (min-width: 320px) and (max-width: 568px) {
   .border {
