@@ -187,7 +187,7 @@ nav h1 a {
   }
 }
 
-#reviews-list {
+.reviews-list {
   margin: 0;
   padding: 0;
   @media #{$breakpoint-small} {
@@ -195,7 +195,7 @@ nav h1 a {
   }
 }
 
-#reviews-list li {
+.reviews-list li {
   background-color: #fff;
   border: 2px solid #f3f3f3;
   display: block;
@@ -204,9 +204,16 @@ nav h1 a {
   overflow: hidden;
   padding: 20px;
   position: relative;
-  width: 85%;
+  width: 100%;
+  @media #{$breakpoint-small} {
+    max-width: 86%;
+  }
+  @media #{$breakpoint-large} {
+    width: 95%;
+  }
 }
-#reviews-list li p {
+
+.reviews-list li p {
   margin: 0 0 10px;
 }
 
