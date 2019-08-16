@@ -6,15 +6,17 @@ body,th {
   font-size: $font-content-size;
   //color: $font-content-color;
   line-height: 1.5;
-  background-color: #444;
+  background-color: $background-color;
 }
 
 .container {
   margin: 0 auto;
   position: relative;
   width: 100%;
-  //background-color: $background-color;
-  background-image: linear-gradient(to right top, #8e9eab, #a4b3bc, #bcc8ce, #d4dde0, #eef2f3);}
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right top, #8e9eab, #a4b3bc, #bcc8ce, #d4dde0, #eef2f3);
+}
 
 /* ====================== Navigation ====================== */
 nav {
@@ -246,8 +248,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px;
 }
 // footer
-#footer {
-  background-color: #444;
+.footer {
+  background-color: $background-color;
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
@@ -256,9 +258,13 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+.footer a {
+  color: $font-link-color;
+}
+
 /* ====================== Map ====================== */
 .map {
-  height: 635px;
+  height: 618px;
   width: 100%;
   background-color: #ccc;
   box-shadow: 0 0 5px 6px rgba(160,174,192,0.55);

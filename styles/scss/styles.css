@@ -10,7 +10,7 @@ body, th {
   margin: 0 auto;
   position: relative;
   width: 100%;
-  background-color: #fff;
+  background-image: linear-gradient(to right top, #8e9eab, #a4b3bc, #bcc8ce, #d4dde0, #eef2f3);
   display: flex;
   flex-direction: column; }
 
@@ -115,7 +115,7 @@ nav h1 a {
 
 /* ====================== Restaurant Listing ====================== */
 .restaurants-list {
-  background-color: #fff;
+  background-color: linear-gradient(to right top, #8e9eab, #a4b3bc, #bcc8ce, #d4dde0, #eef2f3);
   list-style: outside none none;
   margin: 0;
   padding: 0 0 30px;

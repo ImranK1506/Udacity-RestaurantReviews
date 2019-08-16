@@ -2,12 +2,14 @@ body, th {
   font-family: "Lato", Helvetica, sans-serif;
   font-size: 0.8rem;
   line-height: 1.5;
-  background-color: #444; }
+  background-color: #fff; }
 
 .container {
   margin: 0 auto;
   position: relative;
   width: 100%;
+  display: flex;
+  flex-direction: column;
   background-image: linear-gradient(to right top, #8e9eab, #a4b3bc, #bcc8ce, #d4dde0, #eef2f3); }
 
 /* ====================== Navigation ====================== */
@@ -207,8 +209,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Lato", Helvetica, sans-serif;
   margin: 0 0 20px; }
 
-#footer {
-  background-color: #444;
+.footer {
+  background-color: #fff;
   color: #aaa;
   font-size: 8pt;
   letter-spacing: 1px;
@@ -216,9 +218,12 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   text-transform: uppercase; }
 
+.footer a {
+  color: #4fd1c5; }
+
 /* ====================== Map ====================== */
 .map {
-  height: 635px;
+  height: 618px;
   width: 100%;
   background-color: #ccc;
   box-shadow: 0 0 5px 6px rgba(160, 174, 192, 0.55); }

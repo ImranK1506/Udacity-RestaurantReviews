@@ -10,11 +10,12 @@ body,th {
 	line-height: 1.5;
     background-color: #444;
 }
+
 .container {
 	margin: 0 auto;
 	position:relative;
     width: 100%;
-    background-color: $background-color;
+    background-image: $background-image;
     display: flex;
     flex-direction: column;
 }
@@ -174,7 +175,7 @@ nav h1 a {
 
 /* ====================== Restaurant Listing ====================== */
 .restaurants-list {
-  background-color: $background-color;
+  background-color: $background-image;
   list-style: outside none none;
   margin: 0;
   padding: 0 0 30px;
