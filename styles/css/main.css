@@ -9,7 +9,7 @@ body, html {
 body, th {
   font-family: "Lato", Helvetica, sans-serif;
   font-size: 0.8rem;
-  color: #111;
+  color: #a0aec0;
   line-height: 1.5;
   background-color: #111;
 }
@@ -27,7 +27,7 @@ body, th {
 ul, li {
   font-family: "Lato", Helvetica, sans-serif;
   font-size: 10pt;
-  color: #111;
+  color: #a0aec0;
 }
 
 a {
@@ -201,7 +201,7 @@ nav h1 a {
 }
 
 .restaurants-list li h1 {
-  color: #111;
+  color: #a0aec0;
   font-family: "Lato", Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: bold;
@@ -217,7 +217,7 @@ nav h1 a {
   background-color: #fff;
   font-size: 0.8rem;
   letter-spacing: 1px;
-  color: #111;
+  color: #a0aec0;
 }
 
 .restaurants-list li a {
@@ -233,4 +233,4 @@ nav h1 a {
   text-transform: uppercase;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=main.css.map */

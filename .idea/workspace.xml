@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7f8f2ca-d256-4d7f-a343-bbab5beb1378" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sw.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/styles.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/css/styles.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +50,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/node_modules" />
       <recent name="$PROJECT_DIR$/css/scss" />
     </key>
@@ -87,7 +88,7 @@
       <workItem from="1565872635238" duration="16490000" />
       <workItem from="1565938045415" duration="337000" />
       <workItem from="1565942421442" duration="20900000" />
-      <workItem from="1565989332664" duration="1192000" />
+      <workItem from="1565989332664" duration="3138000" />
     </task>
     <servers />
   </component>
