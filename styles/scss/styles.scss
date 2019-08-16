@@ -37,7 +37,7 @@ ul, li {
 }
 
 a {
-	color: $font-header-color;
+	color: $font-link-color;
 	text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ nav h1 a {
 }
 
 .map-container {
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
   @media #{$breakpoint-small} {
     width: 100%;
@@ -111,9 +111,9 @@ nav h1 a {
 .filter-options {
   width: 100%;
   height: 100%;
-  background-color: #4fd1c5;
+  background-color: $background-color;
   align-items: center;
-  margin: 30px auto;
+  margin: 0 auto 30px;
   padding: 10px 0;
   text-align: center;
   @media #{$breakpoint-medium} {
@@ -179,7 +179,7 @@ nav h1 a {
 
 .restaurant-results {
   padding: 0;
-  margin: 0;
+  margin: 0 auto 30px;
   list-style: none;
   display: flex;
   flex-flow: row wrap;
@@ -200,7 +200,7 @@ nav h1 a {
 
 .restaurants-list li h1 {
   color: $font-content-color;
-  font-family: $font-header-color;
+  font-family: $font-family;
   font-size: $font-header-size;
   font-weight: bold;
   letter-spacing: 1px;
@@ -214,6 +214,7 @@ nav h1 a {
   background-color: #fff;
   font-size: $font-content-size;
   letter-spacing: 1px;
+  color: $font-content-color;
 }
 
 .restaurants-list li a {
