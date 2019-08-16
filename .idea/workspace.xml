@@ -3,9 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="a7f8f2ca-d256-4d7f-a343-bbab5beb1378" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/restaurant_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/restaurant_info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/liveserver.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/dbhelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/dbhelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/css/restaurant.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/restaurant.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/css/restaurant.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/restaurant.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/breakpoints.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/breakpoints.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/restaurant.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/restaurant.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/styles.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/restaurant.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/restaurant.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/restaurant.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/restaurant.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/restaurant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/restaurant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,16 +47,18 @@
   <component name="ProjectId" id="1PN7BrobIOgoAB7SkGCrWJXPud4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/node_modules" />
       <recent name="$PROJECT_DIR$/css/scss" />
@@ -78,7 +95,7 @@
       <workItem from="1565865015402" duration="295000" />
       <workItem from="1565872635238" duration="16490000" />
       <workItem from="1565938045415" duration="337000" />
-      <workItem from="1565942421442" duration="9877000" />
+      <workItem from="1565942421442" duration="20536000" />
     </task>
     <servers />
   </component>

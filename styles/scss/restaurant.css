@@ -174,8 +174,7 @@ nav h1 a {
   margin: 0 0 30px;
   overflow: hidden;
   padding: 20px;
-  position: relative;
-  width: 100%; }
+  position: relative; }
   @media only screen and (min-width: 320px) and (max-width: 568px) {
     .reviews-list li {
       max-width: 86%; } }
@@ -250,6 +249,9 @@ h1, h2, h3, h4, h5, h6 {
       position: relative;
       top: 0;
       right: 0; } }
+  @media only screen and (min-device-width: 768px) {
+    .map-container {
+      width: 43%; } }
 
 .inside #map {
   background-color: #ccc; }

@@ -166,7 +166,7 @@ createRestaurantHTML = (restaurant) => {
 
   const name = document.createElement('h1');
   name.innerHTML = restaurant.name;
-  name.tabIndex = 1;
+  name.tabIndex = 0;
   li.append(name);
 
   const neighborhood = document.createElement('p');
@@ -181,7 +181,7 @@ createRestaurantHTML = (restaurant) => {
   more.innerHTML = 'View Details';
   more.href = DBHelper.urlForRestaurant(restaurant);
   more.setAttribute('aria-label', `View ${restaurant.name} details`);
-  more.tabIndex = 1;
+  more.tabIndex = 0;
   li.append(more);
 
   return li

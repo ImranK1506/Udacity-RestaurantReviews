@@ -173,10 +173,6 @@ nav h1 a {
   }
 }
 
-//.reviews-container {
-//  padding: 30px 40px 80px;
-//}
-
 .reviews-container h2 {
   color: $font-header-color;
   font-size: $font-h2-size;
@@ -207,7 +203,7 @@ nav h1 a {
   overflow: hidden;
   padding: 20px;
   position: relative;
-  width: 100%;
+  //width: 100%;
   @media #{$breakpoint-small} {
     max-width: 86%;
   }
@@ -300,6 +296,9 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     top: 0;
     right: 0;
+  }
+  @media #{$breakpoint-custom} {
+    width: 43%;
   }
 }
 
