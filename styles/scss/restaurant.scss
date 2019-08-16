@@ -4,7 +4,7 @@
 body,th {
   font-family: $font-family;
   font-size: $font-content-size;
-  color: $font-content-color;
+  //color: $font-content-color;
   line-height: 1.5;
   background-color: #444;
 }
@@ -13,10 +13,8 @@ body,th {
   margin: 0 auto;
   position: relative;
   width: 100%;
-  background-color: $background-color;
-  display: flex;
-  flex-direction: column;
-}
+  //background-color: $background-color;
+  background-image: linear-gradient(to right top, #8e9eab, #a4b3bc, #bcc8ce, #d4dde0, #eef2f3);}
 
 /* ====================== Navigation ====================== */
 nav {
@@ -43,8 +41,8 @@ nav h1 a {
   list-style: none;
   background-color: #eee;
   font-size: 0.8rem;
-  width: 45%;
-  margin: 10px 0 10px 40px;
+  width: 48%;
+  margin: 30px 0 10px 0;
   text-align: center;
   @media #{$breakpoint-small} {
     margin: 0 auto;
@@ -86,15 +84,15 @@ nav h1 a {
   color: $font-header-color;
   font-family: $font-family;
   font-size: $font-h1-size;
-  font-weight: normal;
+  font-weight: lighter;
   margin: 15px 0 30px;
   text-transform: uppercase;
   line-height: 1.1;
+  letter-spacing: 3px;
   @media #{$breakpoint-small} {
     text-align: center;
     margin: 30px 0 30px;
     letter-spacing: 10px;
-    border: solid;
   }
 }
 #restaurant-img {
@@ -105,8 +103,9 @@ nav h1 a {
 }
 
 .restaurant-hours td {
-  color: $font-content-color;
-  background-color: #fff;
+  color: #fff;
+  font-weight: bold;
+  //background-color: #fff;
 }
 
 .restaurant-hours {
@@ -127,6 +126,8 @@ nav h1 a {
 .restaurant-address {
   font-size: 12pt;
   margin: 10px 0;
+  color: #fff;
+  font-weight: bold;
   @media #{$breakpoint-small} {
     margin: 5% auto;
     width: 80%;
@@ -161,7 +162,7 @@ nav h1 a {
 
 .reviews-container {
   //border-bottom: 1px solid #d9d9d9;
-  border-top: 1px solid #fff;
+  //border-top: 1px solid #fff;
   padding: 30px 40px 80px;
   width: 41%;
   @media #{$breakpoint-small} {
@@ -260,8 +261,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 635px;
   width: 100%;
   background-color: #ccc;
+  box-shadow: 0 0 5px 6px rgba(160,174,192,0.55);
   @media #{$breakpoint-small} {
     height: 475px;
+    box-shadow: none;
   }
 }
 .inside header {
@@ -282,9 +285,9 @@ h1, h2, h3, h4, h5, h6 {
 .map-container {
   width: 45%;
   margin: 0 auto;
-  height: 66%;
+  height: 100%;
   right: 3%;
-  top: 85px;
+  top: 105px;
   position: fixed;
   @media #{$breakpoint-small} {
     width: 100%;

@@ -5,10 +5,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/restaurant.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/restaurant.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/restaurant.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/restaurant.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/restaurant.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/restaurant.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/reusables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/.sass-cache/799cd0bc33e933ebbe8b2a4790de11bd69ded809/reusables.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/scss/restaurant.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/restaurant.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/scss/restaurant.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/restaurant.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/scss/restaurant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/restaurant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/reusables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/reusables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/scss/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/scss/styles.css.map" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +84,7 @@
       <workItem from="1565848683913" duration="382000" />
       <workItem from="1565861319117" duration="400000" />
       <workItem from="1565865015402" duration="295000" />
-      <workItem from="1565872635238" duration="13331000" />
+      <workItem from="1565872635238" duration="16251000" />
     </task>
     <servers />
   </component>

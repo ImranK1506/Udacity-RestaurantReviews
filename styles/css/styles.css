@@ -25,7 +25,7 @@ ul, li {
 }
 
 a {
-  color: #4fd1c5;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -181,7 +181,7 @@ nav h1 a {
 }
 
 .restaurants-list li h1 {
-  color: #4fd1c5;
+  color: #fff;
   font-family: Arial, sans-serif;
   font-size: 1rem;
   font-weight: bold;

@@ -22,7 +22,7 @@ ul, li {
   display: inline-block; }
 
 a {
-  color: #4fd1c5;
+  color: #fff;
   text-decoration: none; }
 
 a:hover, a:focus {
@@ -151,7 +151,7 @@ nav h1 a {
   border-radius: 50%; }
 
 .restaurants-list li h1 {
-  color: #4fd1c5;
+  color: #fff;
   font-family: Arial,sans-serif;
   font-size: 1rem;
   font-weight: bold;

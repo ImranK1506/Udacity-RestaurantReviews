@@ -2,7 +2,6 @@
 body, th {
   font-family: "Lato", Helvetica, sans-serif;
   font-size: 0.8rem;
-  color: #a0aec0;
   line-height: 1.5;
   background-color: #444;
 }
@@ -11,9 +10,7 @@ body, th {
   margin: 0 auto;
   position: relative;
   width: 100%;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
+  background-image: linear-gradient(to right top, #8e9eab, #a4b3bc, #bcc8ce, #d4dde0, #eef2f3);
 }
 
 /* ====================== Navigation ====================== */
@@ -41,8 +38,8 @@ nav h1 a {
   list-style: none;
   background-color: #eee;
   font-size: 0.8rem;
-  width: 45%;
-  margin: 10px 0 10px 40px;
+  width: 48%;
+  margin: 30px 0 10px 0;
   text-align: center;
 }
 @media only screen and (min-width: 320px) and (max-width: 568px) {
@@ -82,20 +79,20 @@ nav h1 a {
 
 /* ====================== Restaurant Details ====================== */
 .restaurant-name {
-  color: #4fd1c5;
+  color: #fff;
   font-family: "Lato", Helvetica, sans-serif;
-  font-size: 2rem;
-  font-weight: normal;
+  font-size: 1.7rem;
+  font-weight: lighter;
   margin: 15px 0 30px;
   text-transform: uppercase;
   line-height: 1.1;
+  letter-spacing: 3px;
 }
 @media only screen and (min-width: 320px) and (max-width: 568px) {
   .restaurant-name {
     text-align: center;
     margin: 30px 0 30px;
     letter-spacing: 10px;
-    border: solid;
   }
 }
 
@@ -109,8 +106,8 @@ nav h1 a {
 }
 
 .restaurant-hours td {
-  color: #a0aec0;
-  background-color: #fff;
+  color: #fff;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 568px) {
@@ -137,6 +134,8 @@ nav h1 a {
 .restaurant-address {
   font-size: 12pt;
   margin: 10px 0;
+  color: #fff;
+  font-weight: bold;
 }
 @media only screen and (min-width: 320px) and (max-width: 568px) {
   .restaurant-address {
@@ -176,7 +175,6 @@ nav h1 a {
 }
 
 .reviews-container {
-  border-top: 1px solid #fff;
   padding: 30px 40px 80px;
   width: 41%;
 }
@@ -188,7 +186,7 @@ nav h1 a {
 }
 
 .reviews-container h2 {
-  color: #4fd1c5;
+  color: #fff;
   font-size: 1.8rem;
   font-weight: lighter;
   letter-spacing: 1px;
@@ -248,7 +246,7 @@ ul, li {
 }
 
 a {
-  color: #4fd1c5;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -281,10 +279,12 @@ h1, h2, h3, h4, h5, h6 {
   height: 635px;
   width: 100%;
   background-color: #ccc;
+  box-shadow: 0 0 5px 6px rgba(160, 174, 192, 0.55);
 }
 @media only screen and (min-width: 320px) and (max-width: 568px) {
   .map {
     height: 475px;
+    box-shadow: none;
   }
 }
 
@@ -297,9 +297,9 @@ h1, h2, h3, h4, h5, h6 {
 .map-container {
   width: 45%;
   margin: 0 auto;
-  height: 66%;
+  height: 100%;
   right: 3%;
-  top: 85px;
+  top: 105px;
   position: fixed;
 }
 @media only screen and (min-width: 320px) and (max-width: 568px) {
