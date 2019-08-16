@@ -319,8 +319,9 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100%;
   width: 25%;
   border: 1px solid $border-color;;
-  margin-left: 10%;
-  margin-top: 3%;
+  //margin-left: 15%;
+  //margin-top: 3%;
+  margin: 5% 12% auto;
   @media #{$breakpoint-small} {
     max-width: 100%;
     width: 50%;

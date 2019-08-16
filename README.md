@@ -42,3 +42,7 @@ Most of the code in this project has been written to the ES6 JavaScript specific
 * Stop server: ctrl + c
 * List all current connections: ps -ef | grep python
 * Kill server: kill *id
+
+#### Resources
+
+* Accessibility (ARIA) - [WAI-ARIA](https://www.w3.org/TR/wai-aria-1.1/#introstates)

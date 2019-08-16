@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a7f8f2ca-d256-4d7f-a343-bbab5beb1378" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant.html" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/restaurant.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/restaurant.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/restaurant.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/restaurant.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/css/styles.css" afterDir="false" />
@@ -89,7 +93,7 @@
       <workItem from="1565865015402" duration="295000" />
       <workItem from="1565872635238" duration="16490000" />
       <workItem from="1565938045415" duration="337000" />
-      <workItem from="1565942421442" duration="1212000" />
+      <workItem from="1565942421442" duration="6291000" />
     </task>
     <servers />
   </component>
