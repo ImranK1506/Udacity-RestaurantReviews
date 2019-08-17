@@ -4,7 +4,6 @@
 body,th {
   font-family: $font-family;
   font-size: $font-content-size;
-  //color: $font-content-color;
   line-height: 1.5;
   background-color: $background-color;
 }
@@ -53,7 +52,6 @@ nav h1 a {
 }
 
 // Breadcrumbs
-/* Display list items side by side */
 .breadcrumb li {
   display: inline;
   font-size: 1.2rem;
@@ -97,7 +95,8 @@ nav h1 a {
     letter-spacing: 10px;
   }
 }
-#restaurant-img {
+
+.restaurant-img {
   width: 90%;
   @media #{$breakpoint-small} {
     width: 100%;
@@ -137,7 +136,7 @@ nav h1 a {
   }
 }
 
-#restaurant-cuisine {
+.restaurant-cuisine {
   background-color: #333;
   color: #ddd;
   font-size: 12pt;
@@ -270,18 +269,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 .inside header {
-  //position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
-}
-.inside {
-  //background: blue none repeat scroll 0 0;
-  //height: 87%;
-  //position: fixed;
-  //right: 0;
-  //top: 76px;
-  //width: 50%;
 }
 
 .map-container {
@@ -304,14 +294,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .inside #map {
   background-color: #ccc;
-  //height: 100%;
-  //width: 100%;
 }
-//#footer {
-//  bottom: 0;
-//  position: relative;
-//  width: 50%;
-//}
 
 //
 .border {

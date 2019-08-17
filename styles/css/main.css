@@ -53,7 +53,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   display: block;
 }
 
-#footer {
+.footer {
   background-color: #111;
   color: #aaa;
   font-size: 8pt;
@@ -86,7 +86,7 @@ nav h1 a {
 }
 
 /* ====================== Map ====================== */
-#map {
+.map {
   height: 400px;
   width: 100%;
   background-color: #ccc;
