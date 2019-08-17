@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Normalize.styles for better cross-browser consistency -->
   <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
   <!-- Main CSS file -->
@@ -16,19 +17,24 @@
           <!-- Beginning header -->
           <header>
             <!-- Beginning nav -->
-            <nav>
+            <nav aria-label="breadcrumb">
               <h1><a aria-label="home" tabindex="1" href="/">Restaurant Reviews</a></h1>
+                <!-- Beginning breadcrumb -->
+                <ul id="breadcrumb" class="breadcrumb" tabindex="1">
+                    <li><a role="page" href="/">Home </a></li>
+                </ul>
+                <!-- End breadcrumb -->
             </nav>
             <!-- End nav -->
           </header>
           <!-- End header -->
           <!-- Beginning main -->
           <div class="container">
-              <!-- Beginning breadcrumb -->
-              <ul id="breadcrumb" class="breadcrumb" >
-                  <li><a role="link" href="/">Home </a></li>
-              </ul>
-              <!-- End breadcrumb -->
+<!--              &lt;!&ndash; Beginning breadcrumb &ndash;&gt;-->
+<!--              <ul id="breadcrumb" class="breadcrumb" >-->
+<!--                  <li><a role="link" href="/">Home </a></li>-->
+<!--              </ul>-->
+<!--              &lt;!&ndash; End breadcrumb &ndash;&gt;-->
             <!-- Beginning map -->
               <section id="map-container" class="map-container">
                   <div role="application" aria-label="restaurant map" id="map" class="map"></div>
