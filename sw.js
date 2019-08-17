@@ -67,7 +67,7 @@ self.addEventListener('fetch', event => {
           });
             return response;
         })
-          .catch(error => {
+          .catch(() => {
             console.log('/trap.gif');
           })
       }
