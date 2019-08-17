@@ -166,8 +166,6 @@ nav h1 a {
 }
 
 .reviews-container {
-  //border-bottom: 1px solid #d9d9d9;
-  //border-top: 1px solid #fff;
   padding: 30px 40px 80px;
   width: 41%;
   @media #{$breakpoint-small} {
@@ -176,7 +174,7 @@ nav h1 a {
   }
 }
 
-.reviews-container h2 {
+.reviews-container h3 {
   color: $font-header-color;
   font-size: $font-h2-size;
   font-weight: lighter;

@@ -151,14 +151,14 @@ nav h1 a {
       width: 100%;
       padding: 0; } }
 
-.reviews-container h2 {
+.reviews-container h3 {
   color: #fff;
   font-size: 1.8rem;
   font-weight: lighter;
   letter-spacing: 1px;
   padding-bottom: 1pt; }
   @media only screen and (min-width: 320px) and (max-width: 568px) {
-    .reviews-container h2 {
+    .reviews-container h3 {
       padding: 0 5%;
       text-align: center;
       margin-top: 20px; } }
