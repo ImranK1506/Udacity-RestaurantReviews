@@ -1,7 +1,5 @@
 # Udacity - Restaurant Reviews App
----
-### Instructions
--
+
 #### Start
 * git clone https://github.com/ImranK1506/Udacity-RestaurantReviews
 * NPM run start
