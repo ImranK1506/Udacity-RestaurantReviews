@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7f8f2ca-d256-4d7f-a343-bbab5beb1378" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +17,7 @@
       <list>
         <option value="CSS File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -36,6 +39,7 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -81,6 +85,12 @@
       <workItem from="1565989332664" duration="8675000" />
       <workItem from="1566017650363" duration="6800000" />
       <workItem from="1566123618484" duration="624000" />
+      <workItem from="1566196999328" duration="803000" />
+      <workItem from="1566200124364" duration="164000" />
+      <workItem from="1566418668064" duration="200000" />
+      <workItem from="1566419269219" duration="719000" />
+      <workItem from="1566494322562" duration="1082000" />
+      <workItem from="1566649714796" duration="1311000" />
     </task>
     <servers />
   </component>
